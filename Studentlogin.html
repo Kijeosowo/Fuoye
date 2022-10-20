@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="device=device-width, initial-scale=1.o">
+    <title>Student Login</title>
+    <link rel="stylesheet" href="Studentlogin.css">
+
+    <!-- Supabase link -->
+    
+    
+
+  </head>
+  <body>
+    <div class="logo">
+      <img src="Image/logo-text2-invers-1-plb19h4exg97nh4ddma399ajz4sdljgo1wpe0hw4v0.jpg" alt="No Image">
+    </div>
+    <h3>Sign into fuoye E-file upload website.</h3>
+
+    <section>
+      <div class="hero">
+        <!-- <h1>Login and Register</h1> -->
+        <div class="form-box">
+          <div class="button-box">
+            <div id="btn">
+            </div>
+            <button type="button" class="toggle-btn" onclick="Login()">LOGIN</button>
+            <button type="button" class="toggle-btn" onclick="Register()">REGISTER</button>
+          </div>
+          <form id="Login" class="input-group" name="contact" method="POST" data-netlify="true">
+            <input type="text" class="input-field" placeholder="Matric_No" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>Remember Password</span>
+            <button type="submit" class="submit-btn">Log in</button>
+          </form>
+          <form id="Register" class="input-group" name="contact" method="POST" data-netlify="true">
+            <input type="text" class="input-field" placeholder="Matric_No" required>
+            <input type="email" class="input-field" placeholder="E-mail" required>
+            <input type="text" class="input-field" placeholder="Enter Password" required>
+            <input type="checkbox" class="check-box"><span>Creating an account means you are okay with our Terms & conditions, Privacy Policy.</span>
+            <button type="submit" class="submit-btn">Register</button>
+          </form>
+        </div>
+        
+      </div>
+    </section>
+
+    <p>By signing up, you agree to our <a href="#">Terms & Conditions</p>
+
+    <div class="social-icons">
+      <!-- <a href="#"><img src="Image/instagram.png" alt=""></a> -->
+      <a href="https://www.facebook.com/FederalUniversityOyeEkiti"><img src="Image/facebook.png" alt=""></a>
+      <a href="https://twitter.com/fuoyenews"><img src="Image/twitter.png" alt=""></a>
+      <!-- <a href="#"><img src="Image/gmail.png" alt=""></a> -->
+    </div>
+    
+    
+<script src="Login.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+  </body>
+</html>
