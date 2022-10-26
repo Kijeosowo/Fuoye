@@ -197,7 +197,7 @@ button {
   text-align: left;
   font-weight: lighter;
   font-size: 1.5rem;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-top: 50px;
   background: -webkit-linear-gradient(#22B481, #24D266);
   -webkit-background-clip: text;
@@ -210,7 +210,8 @@ button {
 }
 
 .touch {
-  margin-left: 5%;
+  margin-left: 3%;
+  margin-right: -3%;
   margin-top: 30px;
 }
 
@@ -254,8 +255,8 @@ button {
 
 #footer {
   margin-top: 50px;
-  margin-left: 17%;
-  border-top: 2px solid #24D266;
+  margin-left: 10%;
+  border-top: 1px solid #24D266;
   margin-right: 10%;
   padding: 1rem;
 }
